@@ -43,7 +43,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Images
 |                     Splash Screen                     |                     Login Screen                     |                      Home Screen                     |                      Chat Screen                     |
 | ----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |
-| <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" width=20px; /> |<img src=https://axat.b-cdn.net/CodeTalk/5.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/3.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/8.JPEG alt="drawing" width=200px; /> |
+| <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/5.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/3.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/8.JPEG alt="drawing" width=200px; /> |
 
 |                     Add User                          |                    Remove User                       |                    Features                          |                    Create Group                      |
 | ----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |
