@@ -50,4 +50,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 ## Images
-<img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/><img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/><img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/><img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/> <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" style="width:200px;"/>
+|                     Splash Screen                     |                    Splash Screen                     |                    Splash Screen                     |                    Splash Screen                     |
+| ----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |
+| <img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" width=150px; /> |<img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" width=150px; /> |<img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" width=150px; /> |<img src=https://axat.b-cdn.net/CodeTalk/1.JPEG alt="drawing" width=150px; /> |
+
+
