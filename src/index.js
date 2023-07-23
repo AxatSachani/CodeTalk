@@ -34,10 +34,7 @@ app.use((req, res, next) => {
 
 
 app.use(route)
-app.get('/',async(req,res)=>{
-res.send('connected')
-        }
-        )
+app.get('/',async(req,res)=>{ res.send('connected') } )
 
 
 io.on('connection', (socket, error) => {
