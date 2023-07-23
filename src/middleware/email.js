@@ -3,8 +3,7 @@ const { MAILTOKEN: token } = process.env
 const mail = courier.CourierClient({ authorizationToken: token });
 
 const sendOTPMail = function (user_name, username, otp) {
-    mail.log(user_name, username, otp);
-    courier.send({
+    mail.send({
         message: {
             to: {
                 email: `${user_name}`,
@@ -21,7 +20,6 @@ const sendOTPMail = function (user_name, username, otp) {
 
 
 const sendInviteMail = function (user_name, username, groupName, password) {
-    console.log(user_name, username, groupName, password);
     mail.send({
         message: {
             to: {
