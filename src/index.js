@@ -85,11 +85,11 @@ io.on('connection', (socket, error) => {
 
 
 
-app.listen(SERVERPORT, '192.168.1.7', () => {
+app.listen(SERVERPORT, () => {
     console.log(`Server running on ${SERVERPORT}`);
 })
 
-server.listen(SOCKETPORT, '192.168.1.7', () => {
+server.listen(SOCKETPORT, () => {
     console.log(`Socket on ${SOCKETPORT}`);
 })
 
