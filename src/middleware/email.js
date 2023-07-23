@@ -36,7 +36,6 @@ const sendInviteMail = function (user_name, username, groupName, password) {
             },
         },
     });
-    console.log('sent');
 }
 
 module.exports = {

@@ -13,8 +13,7 @@ const UserSchema = new mongoose.Schema({
     },
     group: [{
         group_icon: {
-            type: String,
-            // default: Math.floor(Math.random() * (7)) + 1
+            type: String
         },
         group_name: {
             type: String

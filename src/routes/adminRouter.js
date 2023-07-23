@@ -3,19 +3,7 @@ const { GroupName } = require('../models/groupName')
 const mongoose = require('mongoose')
 const route = express.Router()
 
-// // create admin
-// route.post('/admin', async (req, res) => {
-//     var success
-//     const msg = 'admin created'
-//     try {
-//         const admin = await Admin(req.body)
-//         await admin.save()
-//         res.send({ code: 201, success: success, message: msg, data: admin })
-//     } catch (error) {
-//         success = false
-//         res.send({ code: 400, success: success, message: error.message })
-//     }
-// })
+
 
 // login admin
 route.post('/admin/login', async (req, res) => {
@@ -55,7 +43,7 @@ route.get('/admin/group', async (req, res) => {
                 }
             }
         ])
-        group = group.length > 0 ? group[0] : {group}
+        group = group.length > 0 ? group[0] : { group }
         res.status(200).send({ code: 200, success: true, message: msg, data: group })
     } catch (error) {
         res.send({ code: 400, success: false, message: error.message })

@@ -34,13 +34,11 @@ app.use((req, res, next) => {
 
 
 app.use(route)
-app.get('/',async(req,res)=>{ res.send('connected') } )
+app.get('/', async (req, res) => { res.send('connected') })
 
 
-io.on('connection', (socket, error) => {
-    console.log('new websocket connected');
+io.on('connection', (socket) => {
     socket.on('join', (data) => {   //data => id(userId), username, room
-        // adduser(data)
         socket.join(data.room)
         socket.emit('join', 'user added')
     })
@@ -52,7 +50,6 @@ io.on('connection', (socket, error) => {
     })
 
     socket.on('message', async (data) => {  //message => id(userId), username, room, text(message)
-        // const user = getUser(data.id)
         let client
         let createAt = new Date().getTime()
         let message

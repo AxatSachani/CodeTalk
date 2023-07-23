@@ -6,25 +6,6 @@ const mongoose = require('mongoose')
 const { sendOTPMail } = require('../middleware/email')
 
 
-const courier = require("@trycourier/courier").CourierClient({ authorizationToken: "pk_prod_F4TFS1C8TX47Q5NWXQP7J73RQWZ4" });
-
-var email = function (user_name, username, otp) {
-    console.log(user_name, username, otp);
-    courier.send({
-        message: {
-            to: {
-                email: `${user_name}`,
-            },
-            template: "Q77MRX6Y764GYNM3NQMGFA088VET",
-            data: {
-                name: `${username}`,
-                user: `${user_name}`,
-                otp: `${otp}`,
-            },
-        },
-    });
-}
-
 
 // login user
 route.post('/user/login', async (req, res) => {
@@ -68,25 +49,6 @@ route.post('/user/group', async (req, res) => {
         res.send({ code: 400, success: false, message: error.message })
     }
 })
-
-// cron.schedule(' * * * * *', async (req, res) => {
-//     try {
-//         const groups = await Group.findOne({})
-//         console.log(groups.group.length);
-//         for (var i = 0; i < groups.group.length; i++) {
-//             console.log('here');
-//             const name = GroupName(groups.group[i])
-//             const ia = await name.findOne({})
-//             console.log(ia.message);
-//             ia.message.splice(0, ia.message.length);
-//             await ia.save()
-//         }
-//         console.log('done')
-//     } catch (error) {
-//         console.log(error);
-//     }
-// });
-
 
 
 // forget password
