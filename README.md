@@ -15,13 +15,14 @@ CodeTalk is a real-time chat application designed for software developers to col
 1. Clone the repository: `git clone` [CodeTalk](https://github.com/AxatSachani/CodeTalk.git)
 2. Install dependencies: `npm install` (or any other package manager you're using)
 3. Start the application: `npm start`
+4. Connect with your local mongodb or create a cluster from [MongoDB](https://account.mongodb.com/account/login)
 
 
 ## Usage
 
 1. Sign up or log in using your credentials.
-   * username: testuser1@gmail.com pin: 1234567890
-   * username: testuser2@gmail.com pin: 1234567890
+   * username: `testuser1@gmail.com` pin: `1234567890`
+   * username: `testuser2@gmail.com` pin: `1234567890`
 
 2. Create or join a chat room.
 3. Start sending and receiving messages with other users in real-time.
@@ -29,15 +30,10 @@ CodeTalk is a real-time chat application designed for software developers to col
 
 ## Technologies Used
 
-- Node.js and Express for the server-side.
-- kotlin for the front-end.
+- Nodejs and ExpressJS for the server-side.
+- Kotlin for the front-end.
 - Socket.io for real-time communication.
 - MongoDB for the database.
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Images
@@ -48,4 +44,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 |                     Add User                          |                    Remove User                       |                    Features                          |                    Create Group                      |
 | ----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |----------------------------------------------------- |
 | <img src=https://axat.b-cdn.net/CodeTalk/10.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/6.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/7.JPEG alt="drawing" width=200px; /> |<img src=https://axat.b-cdn.net/CodeTalk/2.JPEG alt="drawing" width=200px; /> |
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
