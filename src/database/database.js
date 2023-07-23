@@ -1,7 +1,8 @@
 const mongoose = require('mongoose')
 const chalk = require('chalk')
 const database = 'chat-cloud'
-const url = `mongodb://12.0.0.1:27017/${database}?retryWrites=true&w=majority`
+// const url = `mongodb://12.0.0.1:27017/${database}?retryWrites=true&w=majority`
+const url = `mongodb+srv://akshat:xeFSw6j4tiQ2nbPP@chat-server.akji0.mongodb.net/${database}?retryWrites=true&w=majority`
 
 var connect = false
 mongoose.connect(url, {
