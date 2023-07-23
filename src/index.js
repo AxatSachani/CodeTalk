@@ -34,8 +34,6 @@ app.use((req, res, next) => {
 
 
 app.use(route)
-app.get('/', async (req, res) => { res.send('connected') })
-
 
 io.on('connection', (socket) => {
     socket.on('join', (data) => {   //data => id(userId), username, room
