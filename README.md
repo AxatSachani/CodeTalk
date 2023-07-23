@@ -12,7 +12,7 @@ CodeTalk is a real-time chat application designed for software developers to col
 
 ## Installation
 
-1. Clone the repository: `git clone` [CodeTalk](https://github.com/AxatSachani/CodeTalk.git)
+1. Clone the repository: `git clone https://github.com/AxatSachani/CodeTalk.git`
 2. Install dependencies: `npm install` (or any other package manager you're using)
 3. Start the application: `npm start`
 4. Connect with your local mongodb or create a cluster from [MongoDB](https://account.mongodb.com/account/login)
@@ -20,12 +20,12 @@ CodeTalk is a real-time chat application designed for software developers to col
 
 ## Usage
 
-1. Sign up or log in using your credentials.
+1. Download and Install [CodeTalk](CodeTalk.apk) app
+2. Sign up or log in using your credentials.
    * username: `testuser1@gmail.com` pin: `1234567890`
    * username: `testuser2@gmail.com` pin: `1234567890`
-
-2. Create or join a chat room.
-3. Start sending and receiving messages with other users in real-time.
+3. Create or join a chat room.
+4. Start sending and receiving messages with other users in real-time.
 
 
 ## Technologies Used
