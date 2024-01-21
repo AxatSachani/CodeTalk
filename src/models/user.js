@@ -59,7 +59,7 @@ UserSchema.methods.toJSON = function () {
 UserSchema.pre('save', async function (next) {
     const user = this
     if (user.isModified('password')) {
-        user.password =await bcrypt.hash(user.password, 12)
+        user.password = await bcrypt.hash(user.password, 12)
     }
     next()
 })
@@ -78,7 +78,6 @@ UserSchema.statics.findByCredentials = async function (user_name, password) {
         return user
     }
 }
-
 
 
 const User = mongoose.model('user', UserSchema)

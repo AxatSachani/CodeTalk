@@ -35,6 +35,10 @@ app.use((req, res, next) => {
 
 app.use(route)
 
+app.get('/health', (req, res) => {
+    res.status(200).send({ code: 200, success: true, message: 'ok' })
+})
+
 io.on('connection', (socket) => {
     socket.on('join', (data) => {   //data => id(userId), username, room
         socket.join(data.room)
@@ -84,8 +88,3 @@ app.listen(SERVERPORT, () => {
 server.listen(SOCKETPORT, () => {
     console.log(`Socket on ${SOCKETPORT}`);
 })
-
-
-
-
-// http://192.168.1.7:3030/admin/login
