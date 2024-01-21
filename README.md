@@ -22,8 +22,8 @@ CodeTalk is a real-time chat application designed for software developers to col
 
 1. Download and Install [CodeTalk](CodeTalk.apk) app
 2. Sign up or log in using your credentials.
-   * username: `testuser1@gmail.com` pin: `1234567890`
-   * username: `testuser2@gmail.com` pin: `1234567890`
+   * username: `testuser1@gmail.com` pin: `testuser1@2022`
+   * username: `testuser2@gmail.com` pin: `testuser2@2022`
 3. Create or join a chat room.
 4. Start sending and receiving messages with other users in real-time.
 
