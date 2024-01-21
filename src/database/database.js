@@ -1,7 +1,8 @@
 const mongoose = require('mongoose')
 const chalk = require('chalk')
 const database = 'chat-cloud'
-const url = `mongodb://127.0.0.1:27017/${database}?retryWrites=true&w=majority`
+const { DBURL } = process.env
+const url = DBURL
 
 var connect = false
 mongoose.connect(url, {
