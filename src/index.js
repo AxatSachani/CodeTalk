@@ -10,9 +10,6 @@ const route = require('./route')
 
 const mongoose = require('mongoose')
 
-
-
-
 const app = express()
 app.use(express.json())
 app.use(bodyParser.json())
@@ -34,6 +31,10 @@ app.use((req, res, next) => {
 
 
 app.use(route)
+
+app.get('/health', (req, res) => {
+    res.status(200).send({ code: 200, success: true, message: 'ok' })
+})
 
 io.on('connection', (socket) => {
     socket.on('join', (data) => {   //data => id(userId), username, room
